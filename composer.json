@@ -13,6 +13,12 @@
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/zhangjian180/yii2-tooltip.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "zhangjian180\\tooltip\\": ""
