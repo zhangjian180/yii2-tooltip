@@ -25,7 +25,7 @@ class TooltipAsset extends AssetBundle {
      */
     public function init()
     {
-        $this->setSourcePath(__DIR__ . '/assets');
+        $this->sourcePath = __DIR__ . '/assets';
         parent::init();
     }
 }

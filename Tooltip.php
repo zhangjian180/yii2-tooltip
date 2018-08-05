@@ -83,6 +83,7 @@ class Tooltip extends Widget
         $('[data-toggle="tooltip"]').tooltip(); 
 JS;
         $view = $this->getView();
+        TooltipAsset::register($view);
         $view->registerJs($js);
     }
 
