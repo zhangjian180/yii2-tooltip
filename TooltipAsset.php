@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 class TooltipAsset extends AssetBundle {
 
     public $js = [
-        'js/tooltip.js'
+        'tooltip.js'
     ];
     
     public $depends = [
