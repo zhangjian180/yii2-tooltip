@@ -1,0 +1,21 @@
+{
+    "name": "zhangjian180/yii2-tooltip",
+    "description": "长文本截取显示，鼠标移入并以tooltip气泡显示所有内容，支持换行",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","tooltip","widget"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangjian",
+            "email": "435222656@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "zhangjian180\\tooltip\\": ""
+        }
+    }
+}
