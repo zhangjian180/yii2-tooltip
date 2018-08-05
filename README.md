@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist zhangjian180/yii2-tooltip "*"
+php composer.phar require --prefer-dist zhangjian180/yii2-tooltip "dev-master"
 ```
 
 or add
 
 ```
-"zhangjian180/yii2-tooltip": "*"
+"zhangjian180/yii2-tooltip": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
