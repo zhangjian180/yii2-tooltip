@@ -1,24 +1,24 @@
 {
     "name": "zhangjian180/yii2-tooltip",
-    "description": "长文本截取显示，鼠标移入并以tooltip气泡显示所有内容，支持换行",
+    "description": "Bootstrap tooltip widget for Yii 2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","tooltip","widget"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "zhangjian",
-            "email": "435222656@qq.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
     "repositories": [
         {
             "type": "path",
             "url": "https://github.com/zhangjian180/yii2-tooltip.git"
         }
     ],
+    "authors": [
+        {
+            "name": "zhangjian",
+            "email": "453222656@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
     "autoload": {
         "psr-4": {
             "zhangjian180\\tooltip\\": ""
