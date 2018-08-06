@@ -14,6 +14,7 @@ use yii\helpers\StringHelper;
  * ```php
  * echo Tooltip::widget([
  *      'placement' => 'top',
+ *      'length' => 10,
  *      'content' => '长文本截取显示，鼠标移入并以tooltip气泡显示所有内容，支持换行',
  *   ]);
  * ```
@@ -30,11 +31,6 @@ class Tooltip extends Widget
     public $content;
 
     /**
-     * @var string $beautifyContent 美化后的文本内容
-     */
-    public $beautifyContent;
-
-    /**
      * @var int $length 截取长度
      */
     public $length = 10;
@@ -48,6 +44,11 @@ class Tooltip extends Widget
      * @var string $placement 气泡方向
      */
     public $placement = 'top';
+
+    /**
+     * @var string $beautifyContent 美化后的文本内容
+     */
+    private $beautifyContent;
 
     /**
      * 初始化数据
