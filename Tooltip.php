@@ -70,9 +70,9 @@ class Tooltip extends Widget
      */
     public function setHtml()
     {
-        return $this->content && Html::tag('span', StringHelper::truncate($this->content, $this->length, $this->suffix),
+        return $this->content ? Html::tag('span', StringHelper::truncate($this->content, $this->length, $this->suffix),
             ['data-toggle' => 'tooltip', 'data-placement' => $this->placement,
-                'data-html' => 'true', 'title' => $this->beautifyContent]);
+                'data-html' => 'true', 'title' => $this->beautifyContent]) : '';
     }
 
     /**
